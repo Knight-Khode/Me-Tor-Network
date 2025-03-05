@@ -370,3 +370,87 @@ background-size: cover;
     font-size: 28px;
     font-weight: bold;
 }
+
+.btn a{
+    font-family: "Dancing Script", cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#back2{
+    background: url(./images/back.jpeg);
+    height: 550px;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+#back2-content{
+    height: 100%;
+    width: 100%;
+}
+
+#back2-content #back2-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.356);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#back2-content #back2-overlay h2{
+    color: #fff;
+    font-size: 70px;
+}
+
+#back2-content #back2-overlay p{
+color: #fff;
+}
+
+#links{
+    margin-bottom: 70px;
+}
+
+#links-container{
+    max-width: 85vw;
+    margin: auto;
+}
+
+#links-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#links-header-right a img{
+    width: 30px;
+}
+
+#article-content{
+    max-width: 85vw;
+    margin: auto;
+}
+
+#article-content p img{
+    width: 200px;
+}
+
+#article-content ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#article-content ul li ion-icon{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+#article-content ul li .red{
+    color: rgb(114, 0, 0);
+}
